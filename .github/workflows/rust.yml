@@ -20,6 +20,7 @@ jobs:
           - windows-latest
         rust:
           - stable
+          - beta
           - nightly
     steps:
     - uses: actions/checkout@v3
